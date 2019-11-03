@@ -1,0 +1,38 @@
+body {
+    height:100%;
+    background:linear-gradient(to top,rgba(31,89,139,1),rgba(38,112,175,1));
+    overflow:hidden;
+    background-size:cover;
+}
+
+.weather-container {  
+    font-family: Sans-serif;
+    width:1200px;
+    margin:0 auto;  
+    color:white;
+    text-align:center;
+}
+
+.container {
+    width:450px;
+    margin:0 auto;
+    display: table;
+    table-layout: fixed;
+    border-radius:10px,
+}
+h1 {
+    width:100%;
+}
+.temp {
+    font-size:60px; 
+    margin:0;
+    font-weight:bold; 
+}
+
+.icon {
+    width:60px;
+    height:60px;
+}
+.weather {
+    margin:0;
+}
